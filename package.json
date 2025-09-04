@@ -1,0 +1,45 @@
+{
+  "name": "richardson-crawler",
+  "version": "1.0.0",
+  "description": "Interval crawler, that crawls Richardson and saves data to the FTP",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon --max-old-space-size=2048"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/get-image-colors": "^4.0.5",
+    "@types/node": "^20.4.4",
+    "@types/nodemailer": "^6.4.10",
+    "@types/uuid": "^9.0.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "basic-ftp": "^5.0.3",
+    "cheerio": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "exceljs": "^4.4.0",
+    "expose-gc": "^1.0.0",
+    "express": "^4.18.2",
+    "get-image-colors": "^4.0.1",
+    "image-size": "^1.0.2",
+    "jimp": "^0.22.8",
+    "mongoose": "^7.4.0",
+    "node-fetch": "^3.3.2",
+    "node-xlsx": "^0.23.0",
+    "nodemailer": "^6.9.5",
+    "puppeteer": "^20.9.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sharp": "^0.32.4",
+    "uuid": "^9.0.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.1/xlsx-0.20.1.tgz"
+  }
+}
